@@ -31,6 +31,6 @@ services:
       - MYSQL_USER=atlogex
       - MYSQL_PASSWORD=123456
     ports:
-      - "3000:3306"
+      - "8001:3306"
     networks:
       - default
